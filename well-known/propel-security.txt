@@ -1,0 +1,16 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: https://forms.gle/fH7B6o381q2SiwoR8
+Expires: 2035-12-31T17:59:00.000Z
+Encryption: https://www.propel.app/gpg-key.txt
+Preferred-Languages: en
+Canonical: https://www.propel.app/.well-known/security.txt
+Policy: https://forms.gle/fH7B6o381q2SiwoR8
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQS6YP7fMlwOaQc/0SwrcNRk15UuxQUCaP+xvwAKCRArcNRk15Uu
+xcynAQDQ6hveRsdoivU5fb5gs9ALHx7XROgm39MIU5Gq47WDxAD/UsDnSZ8mbblp
+QJBWTjHGCn9uyOrHC4xTV0azutrF9AI=
+=PkKB
+-----END PGP SIGNATURE-----

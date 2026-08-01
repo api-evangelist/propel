@@ -1,8 +1,32 @@
 aid: propel
 name: Propel
-description: Propel is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Propel, Inc. is a Brooklyn-based fintech company, founded in 2014, that builds
+  financial tools for Americans with low income. Its free consumer app, Providers
+  (formerly Fresh EBT), is used by more than five million people each month to
+  check their SNAP/EBT balances instantly across 49 states, Washington D.C., and
+  U.S. territories, secure their benefits card with locking and fraud monitoring,
+  find exclusive offers and discounts on groceries, phone plans, internet,
+  utilities, and healthcare, receive alerts about benefit policy changes, browse
+  local job and gig-work listings, and predict deposit dates. Propel is a
+  consumer-facing mobile product and does not publish a public developer API,
+  SDK, or developer portal; it operates a public status page and a signed
+  RFC 9116 security.txt for coordinated vulnerability disclosure. The company is
+  backed by Andreessen Horowitz (a16z), Nyca Partners, Kleiner Perkins, JPMorgan
+  Chase, Salesforce Ventures, the Financial Health Network, and Flourish Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/propel/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.propel.app/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +35,48 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Financial Services
+- Government Benefits
+- SNAP
+- EBT
+- Consumer Finance
+- Mobile App
+- Financial Health
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.propel.app/
+- type: Blog
+  url: https://www.propel.app/blog/
+- type: Support
+  url: https://www.propel.app/contact/
+- type: TermsOfService
+  url: https://www.propel.app/propel/en/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.propel.app/propel/en/privacy-policy/
+- type: StatusPage
+  url: https://status.propel.app/
+- type: SecurityTxt
+  url: well-known/propel-security.txt
+- type: WellKnown
+  url: well-known/propel-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/propel-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.propel.app/.well-known/security.txt
+- type: DomainSecurity
+  url: security/propel-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
